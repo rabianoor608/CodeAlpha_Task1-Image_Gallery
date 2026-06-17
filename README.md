@@ -1,6 +1,6 @@
 # Responsive Image Gallery
 
-This project is developed as part of a GitHub Internship Task.
+This project is developed as part of a CodeAlpha Internship Task.
 
 It is a fully responsive and interactive image gallery built using HTML, CSS, and JavaScript. The gallery allows users to view images in a structured layout, apply category-based filters, and open images in a lightbox with navigation controls.
 
@@ -26,7 +26,7 @@ It is a fully responsive and interactive image gallery built using HTML, CSS, an
 
 ---
 
-This project was assigned as part of a GitHub internship to demonstrate front-end development skills including responsive design, UI styling, and JavaScript interactivity.
+This project was assigned as part of a @CodeAlpha internship to demonstrate front-end development skills including responsive design, UI styling, and JavaScript interactivity.
 
 ## Author
 Rabia Noor
