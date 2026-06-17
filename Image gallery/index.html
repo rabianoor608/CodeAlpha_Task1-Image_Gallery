@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Responsive Image Gallery</h1>
+
+    <div class="buttons">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('Turkey')">Turkey</button>
+        <button onclick="filterImages('Islamabad')">Islamabad</button>
+    </div>
+
+    <div class="gallery">
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160328.png" class="nature" onclick="openLightbox(0)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160457.png" class="nature" onclick="openLightbox(1)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160407.png" class="nature" onclick="openLightbox(2)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160725.png" class="nature" onclick="openLightbox(3)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160546.png" class="nature" onclick="openLightbox(4)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-17 000134.png" class="nature" onclick="openLightbox(5)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-17 000226.png" class="nature" onclick="openLightbox(6)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-17 000337.png" class="nature" onclick="openLightbox(7)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-17 000021.png" class="nature" onclick="openLightbox(8)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-17 000446.png" class="nature" onclick="openLightbox(9)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160920.png" class="Turkey" onclick="openLightbox(10)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 160953.png" class="Turkey" onclick="openLightbox(11)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 161150.png" class="Turkey" onclick="openLightbox(12)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 230732.png" class="Turkey" onclick="openLightbox(13)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 230947.png" class="Turkey" onclick="openLightbox(14)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 230856.png" class="Turkey" onclick="openLightbox(15)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 231057.png" class="Turkey" onclick="openLightbox(16)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 231019.png" class="Turkey" onclick="openLightbox(17)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 231209.png" class="Turkey" onclick="openLightbox(18)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 235510.png" class="Turkey" onclick="openLightbox(19)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 232500.png" class="Islamabad" onclick="openLightbox(20)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 232536.png" class="Islamabad" onclick="openLightbox(21)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 232616.png" class="Islamabad" onclick="openLightbox(22)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 232359.png" class="Islamabad" onclick="openLightbox(23)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 234148.png" class="Islamabad" onclick="openLightbox(24)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 234014.png" class="Islamabad" onclick="openLightbox(25)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 234257.png" class="Islamabad" onclick="openLightbox(26)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 234358.png" class="Islamabad" onclick="openLightbox(27)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 161258.png" class="Islamabad" onclick="openLightbox(28)" />
+        <img src="D:\Project\Image gallery\Images\Screenshot 2026-05-16 161436.png" class="Islamabad" onclick="openLightbox(29)" />
+
+    </div>
+
+    <div id="lightbox">
+        <span class="close" onclick="closeLightbox()">x</span>
+        <img id="lightbox-img" />
+
+        <button class="prev" onclick="changeImage(-1)">❮</button>
+        <button class="next" onclick="changeImage(1)">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
